@@ -1,0 +1,56 @@
+# Breeze GRUB theme
+#
+# 2015, Gustavo Castro < gustawho [at] gmail [dot] com >
+#
+# Some rights reserved. This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.
+#
+
+desktop-image: "background.png"
+
+title-text: "Boot menu"
+title-font: "Oxygen Regular 22"
+title-color: "#fcfcfc"
+message-font: "Oxygen Regular 20"
+message-color: "#fcfcfc"
+terminal-font: "Oxygen Mono Regular 16"
+terminal-box: "terminal_*.png"
+
++ boot_menu {
+  left = 0%
+  width = 100%
+  top = 35%
+  height = 30%	
+
+  menu_pixmap_style = "boot_menu_*.png"
+
+  item_font = "Oxygen Regular 22"
+  item_color = "#31363b"
+  item_height = 88
+  item_icon_space = 8
+  item_spacing = 2
+
+  selected_item_font = "Oxygen Bold 22"
+  selected_item_color= "#fcfcfc"
+  selected_item_pixmap_style = "select_*.png"
+
+  icon_height = 88
+  icon_width = 88
+
+  scrollbar = true
+  scrollbar_width = 20
+  scrollbar_thumb = "slider_*.png"
+}
+
++ progress_bar {
+  id = "__timeout__"
+  left = 0%
+  width = 100%
+  top = 85%
+  height = 16
+  show_text = false
+  font = "Oxygen Mono Regular 16"
+  text_color = "#fcfcfc"
+  text = "@TIMEOUT_NOTIFICATION_LONG@"
+  bar_style = "progress_bar.png"
+  highlight_style = "progress_dot_*.png"
+}
