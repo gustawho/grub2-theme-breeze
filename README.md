@@ -1,8 +1,8 @@
 # Breeze
 A minimalistic GRUB theme inspired by Breeze
 
-![Default view]()
-![Available distro logos]()
+![Default view](http://opendesktop.org/CONTENT/content-pre1/171217-1.png)
+![Available distro logos](http://opendesktop.org/CONTENT/content-pre2/171217-2.png)
 
 ## Installation
 As root, 
