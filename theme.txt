@@ -7,29 +7,29 @@
 
 desktop-image: "background.png"
 
-title-text: "Boot menu"
-title-font: "Oxygen Regular 22"
-title-color: "#fcfcfc"
-message-font: "Oxygen Regular 20"
+title-text: ""
+#title-font: "DejaVu Regular 16"
+#title-color: "#fcfcfc"
+message-font: "DejaVu Regular 14"
 message-color: "#fcfcfc"
-terminal-font: "Oxygen Mono Regular 16"
+terminal-font: "DejaVu Regular 16"
 terminal-box: "terminal_*.png"
 
 + boot_menu {
   left = 0%
   width = 100%
-  top = 35%
-  height = 30%	
+  top = 33%
+  height = 33%	
 
   menu_pixmap_style = "boot_menu_*.png"
 
-  item_font = "Oxygen Regular 22"
+  item_font = "DejaVu Regular 14"
   item_color = "#31363b"
   item_height = 44
   item_icon_space = 8
   item_spacing = 2
 
-  selected_item_font = "Oxygen Bold 22"
+  selected_item_font = "DejaVu Bold 14"
   selected_item_color= "#fcfcfc"
   selected_item_pixmap_style = "select_*.png"
 
@@ -43,14 +43,13 @@ terminal-box: "terminal_*.png"
 
 + progress_bar {
   id = "__timeout__"
-  left = 0%
-  width = 100%
-  top = 85%
-  height = 16
+  left = 33%
+  width = 33%
+  top = 70%
+  height = 1%
   show_text = false
-  font = "Oxygen Mono Regular 16"
-  text_color = "#fcfcfc"
-  text = "@TIMEOUT_NOTIFICATION_LONG@"
-  bar_style = "progress_bar.png"
-  highlight_style = "progress_dot_*.png"
+  text = ""
+  fg_color = #3daee9
+  bg_color = #31363b
+  border_color = #31363b
 }
