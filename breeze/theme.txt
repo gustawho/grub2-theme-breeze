@@ -8,11 +8,11 @@
 desktop-image: "background.png"
 
 title-text: ""
-#title-font: "DejaVu Regular 16"
+#title-font: "Terminus 18"
 #title-color: "#fcfcfc"
-message-font: "DejaVu Regular 14"
+message-font: "Terminus 18"
 message-color: "#fcfcfc"
-terminal-font: "DejaVu Regular 16"
+terminal-font: "Terminus 18"
 terminal-box: "terminal_*.png"
 
 + boot_menu {
@@ -23,13 +23,13 @@ terminal-box: "terminal_*.png"
 
   menu_pixmap_style = "boot_menu_*.png"
 
-  item_font = "DejaVu Regular 14"
+  item_font = "Terminus 18"
   item_color = "#31363b"
   item_height = 44
   item_icon_space = 8
   item_spacing = 2
 
-  selected_item_font = "DejaVu Bold 14"
+  selected_item_font = "Terminus 18"
   selected_item_color= "#fcfcfc"
   selected_item_pixmap_style = "select_*.png"
 
@@ -46,10 +46,11 @@ terminal-box: "terminal_*.png"
   left = 33%
   width = 33%
   top = 70%
-  height = 1%
+  height = 8
   show_text = false
   text = ""
+  font = "Terminus 12"
   fg_color = #3daee9
   bg_color = #31363b
-  border_color = #31363b
+  border_color = #4d4d4d
 }
