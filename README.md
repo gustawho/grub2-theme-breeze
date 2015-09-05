@@ -5,4 +5,4 @@ A minimalistic GRUB theme inspired by Breeze
 ![Available distro logos](http://opendesktop.org/CONTENT/content-pre2/171217-2.png)
 
 ## Installation
-Just copy the "breeze" folder to the themes directory in /boot. If you don't know how to do it, just run the included "install.sh" script as root.
+Copy the "breeze" folder to the themes directory in /boot. If you don't know how to do it, just run the included "install.sh" script as root.
