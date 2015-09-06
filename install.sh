@@ -5,7 +5,7 @@ main() {
   if [ -d "/boot/grub" ]
   then
     echo -e "\e[1m\e[32m==> \e[97mCopying files...\e[0m"
-    cp -rf breeze /boot/grub/themes
+    cp -rf breeze /boot/grub/themes/
   else
     echo -e "\e[1m\e[32m==> \e[97mCopying files...\e[0m"
     cp -rf breeze /boot/grub2/themes/
