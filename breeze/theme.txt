@@ -7,6 +7,7 @@
 
 desktop-image: "background.png"
 
+# colors are taken from the breeze default theme
 title-text: ""
 #title-font: "Terminus 18"
 #title-color: "#fcfcfc"
@@ -19,12 +20,13 @@ terminal-box: "terminal_*.png"
   left = 0%
   width = 100%
   top = 33%
-  height = 33%	
+  height = 33%
 
   menu_pixmap_style = "boot_menu_*.png"
 
   item_font = "Terminus 18"
-  item_color = "#31363b"
+  # breeze inactive text color
+  item_color = "#7f8c8d"
   item_height = 44
   item_icon_space = 8
   item_spacing = 2
