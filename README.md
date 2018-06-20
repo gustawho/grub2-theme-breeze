@@ -1,7 +1,7 @@
 # Breeze
 A minimalistic GRUB theme inspired by Breeze
 
-![Default view](https://cn.pling.com/img//hive/content-pre1/171217-1.png)
+![Default view](preview.png)
 ![Available distro logos](https://cn.pling.com/img//hive/content-pre3/171217-3.png)
 
 ## Installation
