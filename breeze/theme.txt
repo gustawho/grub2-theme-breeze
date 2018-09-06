@@ -8,17 +8,17 @@
 desktop-image: "background.png"
 
 # colors are taken from the breeze default theme
-title-text: ""
-#title-font: "Terminus 18"
-#title-color: "#fcfcfc"
+title-text: "Select OS to boot"
+title-font: "Terminus 18"
+title-color: "#fcfcfc"
 message-font: "Terminus 18"
 message-color: "#fcfcfc"
 terminal-font: "Terminus 18"
 terminal-box: "terminal_*.png"
 
 + boot_menu {
-  left = 0%
-  width = 100%
+  left = 30%
+  width = 40%
   top = 33%
   height = 33%
 
