@@ -26,7 +26,7 @@ main() {
           nano /etc/default/grub
           echo -e "\e[1m\e[32m==> \e[97mApplying changes...\e[0m"
           grub-mkconfig -o /boot/grub/grub.cfg
-          echo -e "\e[1m\e[34m  -> \e[97mTheme successfuly applied!"
+          echo -e "\e[1m\e[34m  -> \e[97mTheme successfully applied!"
           echo -e "\e[1m\e[34m  -> \e[97mRestart your PC to check it out."
           sleep 2
           break
@@ -37,7 +37,7 @@ main() {
           nano /etc/default/grub
           echo -e "\e[1m\e[32m==> \e[97mApplying changes...\e[0m"
           grub2-mkconfig -o /boot/grub2/grub.cfg
-          echo -e "\e[1m\e[34m  -> \e[97mTheme successfuly applied!"
+          echo -e "\e[1m\e[34m  -> \e[97mTheme successfully applied!"
           echo -e "\e[1m\e[34m  -> \e[97mRestart your PC to check it out."
           sleep 2
           break
