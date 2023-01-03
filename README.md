@@ -1,10 +1,10 @@
 # Breeze
+
 A minimalistic GRUB theme inspired by Breeze.
 
-![Preview 1](preview01.png)
-![Preview 2](preview02.png)
-![Preview 3](preview03.png)
-> Keep in mind that the previous screenshots were taken on a low-resolution QEMU virtual machine.
+![Preview](preview.jpg)
+
+## Icons
 
 ![Shipped icons and logos](icons.png)
 
