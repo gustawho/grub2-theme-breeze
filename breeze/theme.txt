@@ -9,11 +9,11 @@ desktop-image: "background.png"
 
 # colors are taken from the breeze default theme
 title-text: "Select a boot option"
-title-font: "Hack 18"
+title-font: "Hack Regular 18"
 title-color: "#eff0f1"
-message-font: "Hack 18"
+message-font: "Hack Regular 18"
 message-color: "#eff0f1"
-terminal-font: "Hack 18"
+terminal-font: "Hack Regular 18"
 terminal-box: "terminal_*.png"
 
 + boot_menu {
@@ -24,7 +24,7 @@ terminal-box: "terminal_*.png"
 
   menu_pixmap_style = "boot_menu_*.png"
 
-  item_font = "Hack 22"
+  item_font = "Hack Regular 22"
   # breeze inactive text color
   item_color = "#7f8c8d"
   item_height = 48
@@ -32,7 +32,7 @@ terminal-box: "terminal_*.png"
   item_spacing = 5
   item_padding = 5
 
-  selected_item_font = "Hack 22"
+  selected_item_font = "Hack Regular 22"
   selected_item_color= "#eff0f1"
   selected_item_pixmap_style = "select_*.png"
 
